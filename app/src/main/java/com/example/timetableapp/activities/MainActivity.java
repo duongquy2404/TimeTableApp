@@ -1,8 +1,10 @@
-package com.example.timetableapp;
+package com.example.timetableapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.timetableapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
