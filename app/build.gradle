@@ -37,6 +37,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:32.0.0')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'androidx.preference:preference:1.2.0'
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
 //    implementation 'org.xdty.preference:color-picker:0.0.5'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

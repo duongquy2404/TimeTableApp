@@ -9,7 +9,7 @@
         android:id="@+id/topView"
         android:layout_width="0dp"
         android:layout_height="150dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/purple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -18,7 +18,7 @@
         android:id="@+id/view5"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:background="@drawable/wave"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topView" />
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="48dp"
-        android:text="Register your Account"
+        android:text="Đăng kí tài khoản"
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -55,8 +55,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/round_border"
-        android:drawableStart="@drawable/ic_email"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/baseline_person_black_24"
         android:drawablePadding="16dp"
         android:ems="10"
         android:hint="@string/email"
@@ -65,7 +65,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view5"
-        android:text="thichLT@gmail.com"
         />
 
     <EditText
@@ -75,8 +74,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/round_border"
-        android:drawableStart="@drawable/ic_lock"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/baseline_lock_24"
         android:drawablePadding="16dp"
         android:ems="10"
         android:hint="@string/password"
@@ -88,12 +87,12 @@
 
     <Button
         android:id="@+id/btnRegister"
-        android:layout_width="0dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/round_bg"
+        android:background="@color/purple"
         android:text="@string/Register"
         android:textColor="@android:color/white"
         android:textSize="18sp"
@@ -103,13 +102,13 @@
         app:layout_constraintTop_toBottomOf="@+id/inputPasswordRegister" />
     <Button
         android:id="@+id/btnCancelRegister"
-        android:layout_width="0dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/round_bg"
-        android:text="Cancel"
+        android:background="@color/purple"
+        android:text="Hủy bỏ"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"
