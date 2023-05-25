@@ -13,11 +13,10 @@
     <string name="navigation_drawer_open">Open Navigation Drawer</string>
     <string name="navigation_drawer_close">Close navigation Drawer</string>
 
-    <!--    <string name="navigation_drawer_open">Open navigation drawer</string>-->
-    <!--    <string name="navigation_drawer_close">Close navigation drawer</string>-->
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Cài đặt</string>
+    <string name="action_logout">Đăng xuất</string>
 
     <!-- Fragments strings -->
     <string name="monday">THỨ HAI</string>
@@ -32,27 +31,27 @@
 
     <!-- Main Activity strings -->
     <string name="timetable">Quý Dương</string>
-    <string name="ulan_nurymov_gmail_com">haiquy2303@gmail.com</string>
+    <string name="ulan_nurymov_gmail_com">duongquy2404@gmail.com</string>
     <string name="seven_days_of_the_week">7 Ngày trong tuần</string>
     <string name="subject">Subject</string>
-    <string name="field_error">field can not be empty!</string>
-    <string name="time_error">Time field can not be empty!</string>
+    <string name="field_error">Vui lòng điền đầy đủ thông tin!</string>
+    <string name="time_error">Không để trống!</string>
     <string name="week">Tuần</string>
     <string name="delete">Xóa</string>
     <string name="edit">Sửa</string>
     <string name="school_website">Website PTIT</string>
     <string name="school_website_snackbar">Vui lòng đặt website của trường trong cài đặt</string>
 
-    <string name="add_subject">Add subject</string>
-    <string name="edit_subject">Edit subject</string>
+    <string name="add_subject">Thêm lịch học</string>
+    <string name="edit_subject">Sửa lịch học</string>
     <string name="teacher">Giảng viên</string>
     <string name="room">Phòng</string>
-    <string name="time">Time</string>
+    <string name="time">Thời gian</string>
     <string name="save">Lưu</string>
     <string name="cancel">Hủy bỏ</string>
-    <string name="time_to_dialog">To:</string>
-    <string name="time_from_dialog">From:</string>
-    <string name="subject_dialog">Subject:</string>
+    <string name="time_to_dialog">Kết thúc:</string>
+    <string name="time_from_dialog">Bắt đầu:</string>
+    <string name="subject_dialog">Môn học:</string>
     <string name="teacher_dialog">Giảng viên:</string>
     <string name="room_dialog">Phòng:</string>
     <string name="select_time">Chọn giờ</string>
@@ -67,20 +66,20 @@
     <string name="select_date">Chọn ngày</string>
     <string name="deadline_dialog">Thời hạn:</string>
     <string name="deadline">Thời hạn</string>
-    <string name="description_dialog">Description:</string>
-    <string name="desctiption">Desctiption</string>
-    <string name="date_error">Date field can not be empty!</string>
+    <string name="description_dialog">Nội dung:</string>
+    <string name="desctiption">Nội dung</string>
+    <string name="date_error">Vui lòng điền đầy đủ thông tin!</string>
     <string name="edit_homework">Sửa</string>
     <string name="add_homework">Thêm bài tập</string>
     <string name="deadline_snackbar">Không để trống!</string>
-    <string name="date">Date</string>
+    <string name="date">Thời hạn</string>
 
     <!-- Notes Activity strings -->
-    <string name="notes">Ghi chứ</string>
+    <string name="notes">Ghi chú</string>
     <string name="title_dialog">Tiêu đề:</string>
     <string name="add_note">Thêm ghi chú</string>
     <string name="edit_note">Sửa ghi chú</string>
-    <string name="title_error">Title field can not be empty!</string>
+    <string name="title_error">Vui lòng điền tiêu đề!</string>
     <string name="title">Tiêu đề</string>
     <string name="saved">Đã lưu</string>
 
@@ -89,24 +88,24 @@
     <string name="add_teacher">Thêm giảng viên</string>
     <string name="edit_teacher">Sửa thông tin</string>
     <string name="name_dialog">Họ tên:</string>
-    <string name="post_dialog">Post:</string>
+    <string name="post_dialog">Học phần:</string>
     <string name="phonenumber_dialog">Số điện thoại:</string>
     <string name="email_dialog">Email:</string>
     <string name="name">Họ tên</string>
     <string name="phone_number">Số điện thoại</string>
-    <string name="post">Post</string>
+    <string name="post">Học phần</string>
     <!--    <string name="email">Email</string>-->
 
     <!-- Exams Activity strings -->
     <string name="exams">Lịch thi</string>
     <string name="add_exam">Thêm lịch thi</string>
-    <string name="date_dialog">Ngày:</string>
-    <string name="time_dialog">Giờ:</string>
+    <string name="date_dialog">Ngày thi:</string>
+    <string name="time_dialog">Giờ thi:</string>
 
     <!-- Settings Activity strings -->
     <string name="sevendays_setting">Bật chế độ 7 ngày trong tuần</string>
     <string name="school_website_setting">Thay đổi trang web của trường</string>
-    <string name="school_website_setting_summary">Thay đổi URL của trường bạn</string>
+    <string name="school_website_setting_summary">Thay đổi URL của trường</string>
 
     <!-- Notification -->
     <string name="notification_title">Bài học hôm nay</string>

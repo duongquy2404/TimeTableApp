@@ -16,7 +16,7 @@ import com.duongnq.timetableapp.model.Week;
 import java.util.ArrayList;
 
 public class FragmentHelper {
-
+    //Xóa nhiều item cùng 1 lúc
     public static AbsListView.MultiChoiceModeListener setupListViewMultiSelect(final Activity activity, final ListView listView, final WeekAdapter adapter, final DbHelper db) {
         return new AbsListView.MultiChoiceModeListener() {
             @Override

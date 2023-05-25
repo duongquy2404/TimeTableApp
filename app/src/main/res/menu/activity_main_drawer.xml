@@ -41,6 +41,10 @@
             android:id="@+id/settings"
             android:icon="@drawable/baseline_settings_black_18"
             android:title="@string/action_settings" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="@string/action_logout"/>
     </group>
 
 </menu>

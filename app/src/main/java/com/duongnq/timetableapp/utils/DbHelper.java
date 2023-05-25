@@ -135,7 +135,7 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * Methods for Week fragments
+     * Week fragments
      **/
     public void insertWeek(Week week){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -193,7 +193,7 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * Methods for Homeworks activity
+     * Homeworks activity
      **/
     public void insertHomework(Homework homework) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -245,7 +245,7 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * Methods for Notes activity
+     * Notes activity
      **/
     public void insertNote(Note note) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -293,7 +293,7 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * Methods for Teachers activity
+     * Teachers activity
      **/
     public void insertTeacher(Teacher teacher) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -347,7 +347,7 @@ public class DbHelper extends SQLiteOpenHelper{
     }
 
     /**
-     * Methods for Exams activity
+     * Exams activity
      **/
     public void insertExam(Exam exam) {
         SQLiteDatabase db = this.getWritableDatabase();

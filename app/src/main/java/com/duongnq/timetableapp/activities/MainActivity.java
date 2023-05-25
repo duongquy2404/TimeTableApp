@@ -41,11 +41,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-
     private FragmentsTabAdapter adapter;
     private ViewPager viewPager;
     private boolean switchSevenDays;
-
     protected FirebaseAuth mFirebaseAuth;
 
     @Override
@@ -198,6 +196,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.settings:
                 Intent settings = new Intent(MainActivity.this, SettingsActivity.class);
                 startActivity(settings);
+                return true;
+            case R.id.logout:
+                mFirebaseAuth = FirebaseAuth.getInstance();
+                mFirebaseAuth.signOut();
+                finish();
                 return true;
             default:
                 DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
